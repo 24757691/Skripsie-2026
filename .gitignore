@@ -3,6 +3,29 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+
+# Data (never commit raw datasets)
+data/raw/
+data/processed/
+data/features/
+
+# Models
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
 # C extensions
 *.so
 
